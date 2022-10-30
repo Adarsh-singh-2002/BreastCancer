@@ -27,6 +27,8 @@ def predict():
   else:
       res_val = "no Breast cancer"
 
+      
+      
 
   return render_template('index.html', prediction_text='Patient has {}'.format(res_val))
 
